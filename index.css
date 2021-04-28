@@ -1,0 +1,118 @@
+/* desktop view  */
+
+:root{
+    margin: 0%;
+    padding: 0%;
+    --font: 'Source Code Pro', monospace;
+    --outputColor: #72aca1;
+    --buttonColor: #31326f ;
+    --textColor: #ffc93c;
+    --backgroundColor: #dbf6e9;
+}
+
+body{
+    background: var(--backgroundColor);
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 7%;
+}
+
+ul{
+    position: absolute;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: var(--buttonColor);
+}
+
+li{
+    display: block;
+    float: right;
+    width: 120px;
+    height: 50px;
+    font-size: 30px;
+    font-family: var(--font);
+    font-weight: 300;
+    text-align: center;
+    padding-top: 5px;
+    color: var(--textColor);
+}
+
+.website-name{
+    float: left;
+    width: 300px;
+}
+
+.simple{
+    width: 120px;
+    margin-right: 10px;
+}
+.hex{
+    margin-right: 10px;
+}
+
+.simple:hover, .hex:hover{
+    border-bottom: 3px solid var(--textColor);
+}
+
+#color-box{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    background-color: green;
+    width: 40%;
+    height: 50%;
+    border: 5px solid var(--buttonColor);
+    border-radius: 50px;
+
+}
+
+.display-div{
+    position: relative;
+    top: 500px;
+    left: 30%;
+    width: 610px;
+    height: 50px;
+
+}
+#color-name{
+    position:absolute;
+    top: -60%;
+    left: 0%;
+    width: 40%;
+    height: inherit;
+    background-color: var(--outputColor);
+    color: var(--textColor);
+    border-radius: 50px;
+    font-family: var(--font);
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+button{
+    position: absolute;
+    right: 0%;
+    width: 20%;
+    height: 70px;
+    background-color: var(--buttonColor);
+    color: var(--textColor);
+    border: none;
+    border-radius: 10px;
+    font-family: var(--font);
+    font-size: 27px;
+    font-weight: 400;
+    text-align: center;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
