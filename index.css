@@ -86,16 +86,16 @@ li{
     position:absolute;
     top: -60%;
     left: 0%;
+    border: 3px solid var(--textColor);
     width: 40%;
     height: inherit;
-    background-color: var(--outputColor);
     color: var(--textColor);
     border-radius: 50px;
     font-family: var(--font);
     font-size: 40px;
     font-weight: 400;
     text-align: center;
-    padding: 5px;
+    padding-bottom: 5px;
 }
 
 button{
